@@ -1,0 +1,180 @@
+{
+  "materials": {
+    "scrap_metal": { "name": "Scrap Metal", "value": 5 },
+    "iron_plate": { "name": "Iron Plate", "value": 6 },
+    "steel_rod": { "name": "Steel Rod", "value": 7 },
+    "copper_wire": { "name": "Copper Wire", "value": 4 },
+    "aluminum_sheet": { "name": "Aluminum Sheet", "value": 4 },
+    "mechanical_parts": { "name": "Mechanical Parts", "value": 10 },
+    "electronic_components": { "name": "Electronic Components", "value": 9 },
+    "rubber_piece": { "name": "Rubber Piece", "value": 3 },
+    "plastic_fragment": { "name": "Plastic Fragment", "value": 2 },
+    "broken_circuit_board": { "name": "Broken Circuit Board", "value": 6 },
+    "springs": { "name": "Springs", "value": 5 },
+    "small_gear": { "name": "Small Gear", "value": 6 },
+    "large_gear": { "name": "Large Gear", "value": 8 },
+    "motor_coil": { "name": "Motor Coil", "value": 9 },
+    "battery_pack": { "name": "Battery Pack", "value": 12 },
+    "carbon_fiber_shard": { "name": "Carbon Fiber Shard", "value": 10 },
+    "kevlar_fiber": { "name": "Kevlar Fiber", "value": 12 },
+    "synthetic_cloth": { "name": "Synthetic Cloth", "value": 4 },
+    "leather_strip": { "name": "Leather Strip", "value": 5 },
+    "thick_cloth": { "name": "Thick Cloth", "value": 4 },
+    "wood_plank": { "name": "Wood Plank", "value": 3 },
+    "hardwood_block": { "name": "Hardwood Block", "value": 4 },
+    "softwood_stick": { "name": "Softwood Stick", "value": 2 },
+    "bark_fiber": { "name": "Bark Fiber", "value": 1 },
+    "rattan_cord": { "name": "Rattan Cord", "value": 2 },
+    "rope": { "name": "Rope", "value": 4 },
+    "nail_pack": { "name": "Nail Pack", "value": 3 },
+    "bolts_screws": { "name": "Bolts & Screws", "value": 3 },
+    "glue_bottle": { "name": "Glue Bottle", "value": 5 },
+    "epoxy_resin": { "name": "Epoxy Resin", "value": 7 },
+    "duct_tape": { "name": "Duct Tape", "value": 5 },
+    "metal_pipe": { "name": "Metal Pipe", "value": 4 },
+    "steel_tube": { "name": "Steel Tube", "value": 5 },
+    "fuel_canister_empty": { "name": "Empty Fuel Canister", "value": 3 },
+    "chemical_bottle": { "name": "Chemical Bottle", "value": 4 },
+    "glass_shard": { "name": "Glass Shard", "value": 2 },
+    "ceramic_piece": { "name": "Ceramic Piece", "value": 3 },
+    "sandpaper": { "name": "Sandpaper", "value": 2 },
+    "grinding_stone": { "name": "Grinding Stone", "value": 4 },
+    "toolkit_parts": { "name": "Tool Kit Parts", "value": 5 },
+    "old_circuit_fuse": { "name": "Old Circuit Fuse", "value": 3 },
+    "silicone_rubber": { "name": "Silicone Rubber", "value": 4 },
+    "wire_spool": { "name": "Wire Spool", "value": 5 },
+    "hose_segment": { "name": "Hose Segment", "value": 3 },
+    "metal_bracket": { "name": "Metal Bracket", "value": 4 },
+    "hinges": { "name": "Hinges", "value": 3 },
+    "chain_link": { "name": "Chain Link", "value": 3 },
+    "sheet_fabric": { "name": "Sheet Fabric", "value": 2 },
+    "iron_powder": { "name": "Iron Powder", "value": 3 },
+    "polymer_chunk": { "name": "Polymer Chunk", "value": 4 }
+  },
+
+  "consumable": {
+    "heal": {
+      "bandage": { "name": "Bandage", "heal": 10, "value": 8 },
+      "medkit": { "name": "Medkit", "heal": 50, "value": 40 },
+      "first_aid_spray": { "name": "First Aid Spray", "heal": 30, "value": 20 },
+      "antibiotic": { "name": "Antibiotic", "heal": 15, "value": 15 },
+      "herbal_remedy": { "name": "Herbal Remedy", "heal": 12, "value": 10 },
+      "blood_pack": { "name": "Blood Pack", "heal": 25, "value": 18 },
+      "clean_gauze": { "name": "Clean Gauze", "heal": 8, "value": 6 },
+      "pain_relief_syrup": { "name": "Pain Relief Syrup", "heal": 15, "value": 12 },
+      "healing_powder": { "name": "Healing Powder", "heal": 20, "value": 10 },
+      "surgical_dressing": { "name": "Surgical Dressing", "heal": 35, "value": 25 }
+    },
+
+    "stamina": {
+      "energy_drink": { "name": "Energy Drink", "stamina": 20, "value": 12 },
+      "protein_bar": { "name": "Protein Bar", "stamina": 15, "value": 10 },
+      "canned_coffee": { "name": "Canned Coffee", "stamina": 10, "value": 8 },
+      "vitamin_tablet": { "name": "Vitamin Tablet", "stamina": 12, "value": 10 },
+      "sugar_cube": { "name": "Sugar Cube", "stamina": 8, "value": 4 },
+      "high_calorie_bread": { "name": "High-Calorie Bread", "stamina": 18, "value": 12 },
+      "energy_gel": { "name": "Energy Gel", "stamina": 25, "value": 14 },
+      "chocolate_bar": { "name": "Chocolate Bar", "stamina": 10, "value": 6 },
+      "electrolyte_pack": { "name": "Electrolyte Pack", "stamina": 22, "value": 15 },
+      "caffeine_pill": { "name": "Caffeine Pill", "stamina": 14, "value": 9 }
+    }
+  },
+
+  "equipment": {
+  "melee": {
+    "kitchen_knife": { "name": "Kitchen Knife", "damage": 8, "durability": 40, "value": 15, "bonus_atk": 0, "bonus_dex": 1 },
+    "hunting_knife": { "name": "Hunting Knife", "damage": 10, "durability": 50, "value": 20, "bonus_atk": 1, "bonus_dex": 1 },
+    "machete": { "name": "Machete", "damage": 16, "durability": 60, "value": 28, "bonus_atk": 2, "bonus_dex": 0 },
+    "wood_club": { "name": "Wood Club", "damage": 6, "durability": 45, "value": 10, "bonus_atk": 0, "bonus_dex": 0 },
+    "baseball_bat": { "name": "Baseball Bat", "damage": 12, "durability": 55, "value": 18, "bonus_atk": 1, "bonus_dex": 0 },
+    "reinforced_bat": { "name": "Reinforced Bat", "damage": 15, "durability": 65, "value": 24, "bonus_atk": 3, "bonus_dex": 0 },
+    "crowbar": { "name": "Crowbar", "damage": 14, "durability": 70, "value": 30, "bonus_atk": 2, "bonus_dex": 0 },
+    "hammer": { "name": "Hammer", "damage": 10, "durability": 55, "value": 16, "bonus_atk": 1, "bonus_dex": 0 },
+    "sledgehammer": { "name": "Sledgehammer", "damage": 30, "durability": 80, "value": 45, "bonus_atk": 5, "bonus_dex": -5 },
+    "axe": { "name": "Axe", "damage": 20, "durability": 75, "value": 35, "bonus_atk": 3, "bonus_dex": 0 },
+    "fire_axe": { "name": "Fire Axe", "damage": 24, "durability": 70, "value": 40, "bonus_atk": 4, "bonus_dex": 0 },
+    "pickaxe": { "name": "Pickaxe", "damage": 22, "durability": 80, "value": 36, "bonus_atk": 3, "bonus_dex": -1 },
+    "wrench": { "name": "Wrench", "damage": 9, "durability": 50, "value": 15, "bonus_atk": 0, "bonus_dex": 0 },
+    "combat_knife": { "name": "Combat Knife", "damage": 14, "durability": 60, "value": 25, "bonus_atk": 2, "bonus_dex": 2 },
+    "spear": { "name": "Spear", "damage": 18, "durability": 55, "value": 22, "bonus_atk": 1, "bonus_dex": 1 },
+    "metal_pipe_club": { "name": "Metal Pipe", "damage": 12, "durability": 60, "value": 20, "bonus_atk": 0, "bonus_dex": 0 },
+    "shovel": { "name": "Shovel", "damage": 14, "durability": 65, "value": 22, "bonus_atk": 1, "bonus_dex": 0 },
+    "hatchet": { "name": "Hatchet", "damage": 16, "durability": 60, "value": 26, "bonus_atk": 2, "bonus_dex": 0 },
+    "tactical_baton": { "name": "Tactical Baton", "damage": 10, "durability": 55, "value": 18, "bonus_atk": 0, "bonus_dex": 3 },
+    "metal_spike_club": { "name": "Metal Spike Club", "damage": 20, "durability": 70, "value": 32, "bonus_atk": 4, "bonus_dex": -1 }
+  }
+}
+
+{
+  "gun": {
+    "pistol_9mm": { "name": "9mm Pistol", "damage": 18, "ammo_type": "9mm", "value": 60, "bonus_atk": 1, "bonus_dex": 0 },
+    "pistol_45": { "name": ".45 Pistol", "damage": 22, "ammo_type": "45acp", "value": 75, "bonus_atk": 2, "bonus_dex": 0 },
+    "magnum_revolver": { "name": "Magnum Revolver", "damage": 30, "ammo_type": "357", "value": 90, "bonus_atk": 3, "bonus_dex": -1 },
+    "bolt_rifle": { "name": "Bolt-Action Rifle", "damage": 40, "ammo_type": "762", "value": 110, "bonus_atk": 4, "bonus_dex": 0 },
+    "hunting_rifle": { "name": "Hunting Rifle", "damage": 35, "ammo_type": "556", "value": 100, "bonus_atk": 3, "bonus_dex": 0 },
+    "dmr": { "name": "DMR", "damage": 45, "ammo_type": "762", "value": 150, "bonus_atk": 5, "bonus_dex": 0 },
+    "assault_rifle": { "name": "Assault Rifle", "damage": 30, "ammo_type": "556", "value": 200, "bonus_atk": 3, "bonus_dex": 0 },
+    "smg_9mm": { "name": "SMG 9mm", "damage": 20, "ammo_type": "9mm", "value": 100, "bonus_atk": 1, "bonus_dex": 2 },
+    "smg_45": { "name": "SMG .45", "damage": 22, "ammo_type": "45acp", "value": 120, "bonus_atk": 2, "bonus_dex": 1 },
+    "pump_shotgun": { "name": "Pump Shotgun", "damage": 40, "ammo_type": "shell", "value": 140, "bonus_atk": 4, "bonus_dex": -2 },
+    "double_shotgun": { "name": "Double Barrel Shotgun", "damage": 45, "ammo_type": "shell", "value": 170, "bonus_atk": 5, "bonus_dex": -3 },
+    "semi_shotgun": { "name": "Semi-auto Shotgun", "damage": 42, "ammo_type": "shell", "value": 160, "bonus_atk": 4, "bonus_dex": -1 },
+    "sniper_rifle": { "name": "Sniper Rifle", "damage": 60, "ammo_type": "762", "value": 260, "bonus_atk": 6, "bonus_dex": 0 },
+    "battle_rifle": { "name": "Battle Rifle", "damage": 50, "ammo_type": "762", "value": 240, "bonus_atk": 5, "bonus_dex": 0 },
+    "lever_rifle": { "name": "Lever Action Rifle", "damage": 38, "ammo_type": "357", "value": 140, "bonus_atk": 3, "bonus_dex": 0 },
+    "compact_pistol": { "name": "Compact Pistol", "damage": 15, "ammo_type": "9mm", "value": 50, "bonus_atk": 0, "bonus_dex": 2 },
+    "burst_smg": { "name": "Burst SMG", "damage": 24, "ammo_type": "45acp", "value": 150, "bonus_atk": 2, "bonus_dex": 1 },
+    "compact_shotgun": { "name": "Compact Shotgun", "damage": 35, "ammo_type": "shell", "value": 130, "bonus_atk": 3, "bonus_dex": -1 },
+    "carbine_rifle": { "name": "Carbine Rifle", "damage": 32, "ammo_type": "556", "value": 160, "bonus_atk": 3, "bonus_dex": 1 },
+    "survival_rifle": { "name": "Survival Rifle", "damage": 28, "ammo_type": "22lr", "value": 80, "bonus_atk": 1, "bonus_dex": 2 }
+  }
+}
+{
+  "armor": {
+    "leather_jacket": { "name": "Leather Jacket", "def": 5, "durability": 40, "value": 20, "bonus_def": 1, "bonus_dex": 1 },
+    "padded_coat": { "name": "Padded Coat", "def": 8, "durability": 50, "value": 28, "bonus_def": 2, "bonus_dex": -1 },
+    "motorcycle_jacket": {
+      "name": "Motorcycle Jacket",
+      "def": 10,
+      "durability": 60,
+      "value": 35,
+      "bonus_def": 3,
+      "bonus_dex": 0
+    },
+    "riot_armor": {
+      "name": "Riot Armor",
+      "def": 15,
+      "durability": 80,
+      "value": 55,
+      "bonus_def": 5,
+      "bonus_dex": -3
+    },
+    "kevlar_vest": {
+      "name": "Kevlar Vest",
+      "def": 18,
+      "durability": 90,
+      "value": 65,
+      "bonus_def": 7,
+      "bonus_dex": -2
+    },
+    "military_plate": {
+      "name": "Military Plate Armor",
+      "def": 22,
+      "durability": 120,
+      "value": 85,
+      "bonus_def": 10,
+      "bonus_dex": -5
+    },
+    "light_tactical_vest": {
+      "name": "Light Tactical Vest",
+      "def": 12,
+      "durability": 70,
+      "value": 48,
+      "bonus_def": 4,
+      "bonus_dex": 1
+    },
+    "survival_coat": { "name": "Survival Coat", "def": 9, "durability": 55, "value": 30, "bonus_def": 2, "bonus_dex": 2 },
+    "combat_armor": { "name": "Combat Armor", "def": 16, "durability": 100, "value": 70, "bonus_def": 6, "bonus_dex": -2 },
+    "scout_armor": { "name": "Scout Armor", "def": 7, "durability": 50, "value": 25, "bonus_def": 1, "bonus_dex": 3 }
+  }
+}
